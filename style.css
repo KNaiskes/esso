@@ -1,0 +1,10 @@
+body {
+    background-color: #F7F7F7;
+}
+
+#date-style {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
