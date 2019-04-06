@@ -8,3 +8,8 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
+#infoBox {
+    border-style: dotted;
+    text-align: center;
+}
