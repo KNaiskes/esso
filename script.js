@@ -13,11 +13,13 @@ var update = setInterval(function() {
     var distance = esso - current;
 
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var servedDays = 242 - days;
 
     months = daysToMonths(days);
 
     document.getElementById("inDays").innerHTML = days + " days left <hr/>";
     document.getElementById("inMonths").innerHTML = "In months: " + months;
+    document.getElementById("servedDays").innerHTML = "Served days: " + servedDays;
 
     if(distance < 0) {
         clearInterval(esso);
